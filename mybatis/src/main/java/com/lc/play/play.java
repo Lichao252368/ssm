@@ -32,4 +32,9 @@ public class play {
         System.out.println(studentList);
     }
 
+    public void method(int a){
+        System.out.println(a);
+    }
+
 }
+
