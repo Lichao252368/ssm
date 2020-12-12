@@ -10,4 +10,8 @@
   <select id="getStudentList" parameterType="string" resultMap="BaseResultMap">
     select * from student where STU_ID = #{stuId}
   </select>
+
+  <select id="getStudent" parameterType="String">
+    selete * from student
+  </select>
 </mapper>
